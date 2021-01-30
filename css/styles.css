@@ -3,17 +3,16 @@ body {
   background-color: #D4964C;
 }
 
-
 .imgResize {
   width: 50%;
   margin: auto;
   display: block;
 }
 
-
-
 p {
-  padding: 20px 60px;
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 2% 7%;
 }
 
 h1 {
@@ -21,27 +20,28 @@ h1 {
   padding-top: 15px;
   font-family: 'Lobster', cursive;
   margin: 15px 0;
-
 }
 
 header {
   position: relative;
   width: 100%;
-  height: 150px;
-  background-color: #DCE4F1;
+  height: 120px;
+  background-color:#02055E;
   background-image: url("images/backgroundcover.jpg");
 }
 
-footer {text-align: center;
+footer {
+  text-align: center;
   width: 100%;
   height: 150px;
-  background-color: #ffffff;
+  background-color:#02055E;
   position: relative;
   padding: 20px 0;
   color: blue;
 }
 
-.carousel-item {font-size: 2rem;
+.carousel-item {
+  font-size: 2rem;
   margin: auto;
   height: 300px;
   padding: 7% 15%;
@@ -80,4 +80,18 @@ nav a {
   margin: 15px;
   margin-top: 20px;
   font-size: 1em;
+}
+
+.logoImage {
+  border-radius: 100%;
+  display: block;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.footerImage {
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
